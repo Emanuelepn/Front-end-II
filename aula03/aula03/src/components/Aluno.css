@@ -1,0 +1,33 @@
+.alunoCard-header > p,
+.alunoCard-contents > p {
+    margin:0;
+}
+.alunoCard {
+    cursor: pointer;
+    width: 500px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: lightgreen;
+}
+.alunoCard:hover {
+    background-color: lightgrey;
+}
+.alunoCard:hover .alunoCard-header{
+    background-color: red;
+}
+
+.alunoCard-header {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 20px;
+    border-bottom: 1px solid;
+    padding: 5px 16px;
+    background-color:  green;
+
+}
+.alunoCard-header:hover {
+    background-color: blue;
+}
+.alunoCard-contents {
+    padding: 5px 16px;
+}
