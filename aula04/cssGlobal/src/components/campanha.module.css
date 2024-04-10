@@ -1,0 +1,28 @@
+/* Crie um CSS Modularizado para um
+componente chamado Campanha.
+• Esse componente exibe na tela uma
+mensagem de acordo com o mês.
+• Essa frase deve ser exibida na cor preta.
+• A cor de fundo de uma tarja (pode ser
+uma div) e a mensagem (dentro da
+tarja) devem mudar de acordo com o
+mês que passamos como prop (string)
+para o componente filho.
+• Setembro -> cor: amarelo, mensagem:
+Prevenção ao suicídio.
+• Outubro -> cor: rosa, mensagem:
+Conscientização sobre o câncer de
+mama.
+• Novembro -> cor: azul, mensagem:
+Prevenção e combate ao câncer de
+próstata. */
+.yellow {
+    background-color: yellow;
+
+}
+.pink {
+    background-color: pink;
+}
+.blue {
+    background-color: blue;
+}
